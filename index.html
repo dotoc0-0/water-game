@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico">
+<title>水ゲーム！</title>
+
+<link rel="stylesheet" href="https:/unpkg.com/ress/dist/ress.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+	<div id="container">
+		<h1>水ゲーム</h1>
+		<div id="game">
+			<p id="caption"></p>
+			<div id="cups"> 
+				<div id="cup1" class="cup">
+					<div id="figure1" class="figure">
+						<div id="water1" class="water">
+							<p id="amount1" class="amount"></p>
+						</div>
+					</div>
+					<p id="capacity1" class="capacity"></p>
+				</div>
+				<div id="cup2" class="cup">
+					<div id="figure2" class="figure">
+						<div id="water2" class="water">
+							<p id="amount2" class="amount"></p>
+						</div>
+					</div>
+					<p id="capacity2" class="capacity"></p>
+				</div>
+				<div id="cup3" class="cup">
+					<div id="figure3" class="figure">
+						<div id="water3" class="water">
+							<p id="amount3" class="amount"></p>
+						</div>
+					</div>
+					<p id="capacity3" class="capacity"></p>
+				</div>
+			</div>
+			<div class="flex">
+			<button id="undo">1手戻す</button>
+			<p id="count"></p>
+		</div>
+			<p>記録</p>
+			<div id="records"></div>
+		</div>
+	</div>
+
+	
+	<script src="js/main.js"></script>
+</body>
+
+</html>
