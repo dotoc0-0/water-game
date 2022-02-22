@@ -152,7 +152,7 @@
     }
     Share.style.display = "none";
     Question.innerHTML = `Q${number}`;
-    Caption.innerHTML = `${Figures.length}つの容器を使って${goal}Lを計ろう！`;
+    Caption.innerHTML = `${Figures.length}つの容器を使って${goal}Lを測ろう！`;
   }
   
   //問題切り替えリンク
