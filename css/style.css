@@ -1,0 +1,157 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background: gray;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+}
+
+#container {
+  background: beige;
+  margin: 0 auto 40px;
+  padding: 20px;
+  text-align: center;
+}
+
+#game {
+  background: floralwhite;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#quiz-list {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#quiz-list li {
+  padding: 0 8px;
+}
+
+#quiz-list li p {
+  text-decoration: underline;
+}
+
+#question {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+#share {
+  padding-top: 8px;
+  display: none;
+}
+
+#tweet {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 20px;
+  width: 80%;
+  max-width: 240px;
+}
+
+#cups {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#cups .cup {
+  width: calc(100% / 3);
+  height: 180px;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#cups .figure {
+  width: 69%;
+  max-width: 80px;
+  border: 2px solid #999;
+  border-top: 2px solid transparent;
+  margin: 0 auto 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  transition-duration: 0.4s;
+}
+
+#cups .capacity {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+}
+
+#cups .water {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: skyblue;
+  width: 100%;
+  transition-duration: 0.7s;
+}
+
+#cups .amount {
+  position: absolute;
+  top: -28px;
+  left: 0;
+  right: 0;
+}
+
+.selected {
+  transform: translateY(-20px);
+}
+
+#undo {
+  background: beige;
+  padding: 4px 8px;
+}
+
+#records {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 300px;
+  text-align: center;
+  background: white;
+  transition-duration: 0.3s;
+  padding: 16px 10px;
+  margin-top: 10px;
+}
+
+#records .record {
+  display: inline-block;
+  width: calc(100% / 3);
+  }
